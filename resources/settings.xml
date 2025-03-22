@@ -1,0 +1,21 @@
+<settings>
+    <category label="Steam Settings">
+		<setting label="Path to Library Cache directory" type="folder" id="library_cache" default="" source=""/>	
+		<setting label="Path to Grid directory" type="folder" id="steam_grid" default="" source=""/>	
+        <setting id="steam_user_id" type="text" label="Steam User ID" default="" />
+        <setting id="steam_api_key" type="text" label="Steam API Key" default="" />
+    </category>
+	<category label='Non-Steam Games Settings'>
+		<setting label="Path to shortcus.vdf" id="shortcuts_vdf" type="file" default="C:\Program Files (x86)\Steam\userdata" />
+		<setting label="Path to Config directory" id="shortcuts_path" type="folder" default="C:\Program Files (x86)\Steam\userdata" />
+		<setting label="Path to Non-Steam shortcuts" type="folder" id="non-steam_url" default="" source=""/>		
+	</category>
+	<category label='Assets Settings'>
+		<setting label="Path to posters" id="poster_path" type="folder" default="" source="" />	
+		<setting label="Path to icons" id="icons_path" type="folder" default="" source="" />	
+		<setting label="Path to banners" id="banners_path" type="folder" default="" source="" />	
+		<setting label="Path to fanarts" id="fanarts_path" type="folder" default="" source="" />	
+		<setting label="Path to clearlogos" id="clearlogos_path" type="folder" default="" source="" />	
+		<setting label="Path to NFO's info" id="nfo_files" type="folder" default="" source=""/>	
+	</category>
+</settings>
